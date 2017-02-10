@@ -1,0 +1,335 @@
+@import "partials/typography";
+@import "partials/practice";
+@import "partials/projectpage";
+
+
+
+.navbar {
+  box-shadow: .5px .5px 5px rgba(0,0,0,0.1);
+  background-color: none;
+  margin: 0px;
+  clear: both;
+  overflow: hidden;
+}
+
+
+.navbar img {
+  float: left;
+  height: 90px;
+  margin:30px 20px 20px 60px;
+}
+
+.navbar ul {
+  float:right;
+  padding:50px 60px 30px 30px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-left: 50px;}
+
+.navli {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: $headerfont;
+  font-size: 1.2em;
+  color: #4d4d4d;
+  padding: 15px;
+}
+
+a:hover {
+  color: #00cfff;
+}
+
+.intro {
+  text-align: center;
+  color: #4d4d4d;
+  padding: 40px;
+  clear: both;
+}
+
+.introimg {
+  padding-right: 5%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.work {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.worksample {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height:350px;
+  width: 350px;
+  background-color: #4d4d4d;
+  overflow: hidden;
+  text-align: center;
+}
+
+.worksample a{
+  text-decoration: none;
+}
+
+.worksample div{
+  padding-top: 120px;
+
+}
+
+.worksample h2{
+color: white;
+font-family: $bodyfont;
+font-weight: 300;
+font-size: 22px;
+line-height: 1.2;
+padding: 10px;
+border: 2px solid white;
+border-radius: 2px;
+background-color: rgba(200, 200, 200, 0.6);
+margin: 50px 60px;
+}
+
+.worksample h2:hover{
+transition: all 0.2s ease-in;
+transform: scale(1.1);
+background-color: rgba(0, 0, 0, 0.6);
+border: 2px solid grey;
+border-radius: 2px;
+color: lightgrey;
+}
+
+
+#branchless {
+background-size: 400px;
+}
+
+#work, #about, #contact h1 {
+text-align: center;
+color: #4d4d4d;
+padding: 30px 10px 5px;}
+
+
+
+.bio {
+padding: 0px 30px 60px;
+text-align: left;
+float: left;
+width: 60%;
+}
+
+.bio img{
+height:200px;
+float: left;
+padding-right: 10px;}
+
+
+.bio p{
+    text-indent: 2em;
+}
+
+.favorites {
+  padding: 10px 30px 60px;
+}
+
+.favorites li{
+  list-style: none;}
+
+.favorites a{
+  text-decoration: none;
+  text-align: center;
+}
+.favorites p{
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.favorites img{
+  height: 70px;
+  border-radius: 60px;
+  margin: 0px;
+}
+
+#contact {
+  clear: both;
+  text-align: center;
+}
+
+.social {
+  display: inline;
+  height: 30px;}
+
+.social img {
+  transition: 0.3s ease-in;
+  height: 60px;
+  margin: 20px;}
+
+  .social img:hover{
+    height: 80px;
+    margin: 10px;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
+}
+
+.footerdiv {
+  width: 100%;
+text-align: center;
+}
+.footerdiv ul {
+    list-style: none;
+    margin: 20px 0px;
+    -webkit-padding-start: 0px;
+  }
+
+  .footerdiv li {
+    display: inline;
+    padding: 0px 60px;
+  }
+  .footerdiv img {
+    height: 50px;
+  }
+
+
+@media (min-width: 761px) and (max-width: 1000px) {
+.footerdiv li {
+  display: inline;
+  padding: 0px 40px;
+}
+}
+
+
+@media (min-width: 501px) and (max-width: 760px) {
+
+.navbar img {
+    height: 80px;
+    margin:30px 20px 20px 30px;
+  }
+
+  .navbar ul {
+    float:right;
+    padding:50px 60px 30px 10px;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding-left: 50px;}
+
+
+
+    .navbar li {
+      padding-left: 5px;}
+
+      .navbar a {
+        font-size: 1.2em;
+        padding: 10px;
+      }
+
+
+      .intropic {
+        height: 350px;
+      }
+          .intro h2{
+                padding:20px;
+              }
+
+        .intro img {
+          width: 100%;
+        }
+  .worksample {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height:300px;
+  width: 300px;
+  }
+  .worksample h2{
+    font-size: 1em;
+    padding:10px;
+  }
+  .footerdiv img {
+    height: 40px;
+  }
+  .footerdiv li {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+  .intropic {
+    height: 200px;
+  }
+
+h1 {font-size: 1.5em;
+}
+h2 {font-size: 1.2em;
+}
+.navbar img {
+    height: 60px;
+    margin:10px 10px 10px 20px;
+  }
+
+  .navbar ul {
+    padding:10px 20px 10px 10px;
+  }
+
+  .navbar li {
+    padding-left: 5px;}
+
+    .navbar a {
+      font-size: 1em;
+      padding: 10px;
+    }
+
+.intro {
+      padding:20px;
+    }
+    .intro h2{
+          padding:20px;
+        }
+
+  .intro img {
+    width: 100%;
+  }
+
+.worksample {
+  width: 300px;
+  height: 300px;
+}
+
+.bio {
+width: 90%;
+text-align: left;
+padding: 5px 20px 5px;}
+
+.bio h2 {
+  margin: 10px;
+}
+.bio img{
+height:100px;
+float: left;
+padding-right: 10px;}
+
+.bio p{
+  text-indent: 2em;
+  font-size: 1em;
+}
+
+.favorites {
+display: none;
+}
+
+.social img {
+  height: 44px;
+  margin: 5px;}
+
+  .footerdiv li {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+  }
+
+}

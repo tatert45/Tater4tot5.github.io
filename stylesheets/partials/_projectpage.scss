@@ -1,0 +1,116 @@
+.project .projectoneintro{
+  display: block;
+  padding: 50px 100px 50px;
+  background-color: rgba(54, 197, 243, .3);
+}
+
+.project .projecttwointro{
+  display: block;
+  padding: 50px 100px 50px;
+  background-color: rgba(255, 200, 97, .6);
+}
+
+
+
+
+.intropic {
+background-image: url(../images/SwimATXdisplay.png);
+background-position: center;
+background-size: cover;
+height: 500px;
+}
+
+.grintropic {
+background-image: url(../images/Goodreadsdisplay.png);
+background-position: center;
+background-size: cover;
+height: 500px;
+}
+
+
+.introp {
+margin-bottom: 10px;
+font-family: $bodyfont;
+}
+
+.project .problem, .process{
+text-align: left;
+margin: 0% 10%;
+}
+.problem h1 {
+margin: 50px 0px 20px;
+}
+
+.process h1 {
+margin: 50px 0px 20px;
+}
+.project p {
+  font-family: $bodyfont;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.projectdiv {
+float: left;
+width: 60%;
+margin-bottom: 80px;
+}
+.projectpicleft{
+clear: both;
+float: left;
+width: 30%;
+padding: 20px 30px 0px 0px;
+margin-right: 30px;
+}
+
+.grcompare {
+  height: 250px;
+}
+.projectpicright{
+clear: both;
+float: right;
+}
+.projectpicright img{
+  height: 300px;
+}
+.number {
+float: left;
+height: 50px;
+padding: 5px 10px 0px 10px;
+}
+.numberheader{
+float: left;
+}
+.numberheader h2{
+margin: 15px 0px 10px;
+}
+.process p{
+clear: both;
+padding: 0px 66px;
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .projectpicright{
+  float: left;}
+
+}
+@media (min-width: 501px) and (max-width: 760px) {
+.projectdiv {
+  width: 100%;
+}
+.projectpicright{
+  padding: 20px 30px 0px 0px;
+  float: left;
+
+}
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+.projectdiv {
+  width: 100%;
+}
+.projectpicright{
+  padding: 20px 30px 0px 0px;
+  float: left;
+}
+}
