@@ -110,6 +110,11 @@ textarea {
   padding: 50px 100px 50px;
   background-color: rgba(255, 200, 97, 0.6); }
 
+.project .projectfourintro {
+  display: block;
+  padding: 50px 100px 50px;
+  background-color: rgba(197, 247, 110, 0.6); }
+
 .intropic {
   background-image: url(../images/SwimATXdisplay.png);
   background-position: center;
@@ -121,6 +126,12 @@ textarea {
   background-position: center;
   background-size: cover;
   height: 500px; }
+
+.vtintropic {
+  background-image: url(../images/vtdisplay.png);
+  background-position: center;
+  background-size: cover;
+  height: 600px; }
 
 .introp {
   margin-bottom: 10px;
@@ -135,6 +146,9 @@ textarea {
 
 .process h1 {
   margin: 50px 0px 20px; }
+
+.projectheader {
+  padding: 0px 66px; }
 
 .project p {
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -189,6 +203,12 @@ textarea {
     padding: 20px 30px 0px 0px;
     float: left; } }
 @media (min-width: 320px) and (max-width: 500px) {
+  .vtintropic {
+    background-image: url(../images/vtdisplay.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px; }
+
   .projectdiv {
     width: 100%; }
 

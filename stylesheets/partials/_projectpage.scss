@@ -10,6 +10,12 @@
   background-color: rgba(255, 200, 97, .6);
 }
 
+.project .projectfourintro{
+  display: block;
+  padding: 50px 100px 50px;
+  background-color: rgba(197, 247, 110, .6);
+}
+
 
 
 
@@ -25,6 +31,13 @@ background-image: url(../images/Goodreadsdisplay.png);
 background-position: center;
 background-size: cover;
 height: 500px;
+}
+
+.vtintropic {
+background-image: url(../images/vtdisplay.png);
+background-position: center;
+background-size: cover;
+height: 600px;
 }
 
 
@@ -43,6 +56,11 @@ margin: 50px 0px 20px;
 
 .process h1 {
 margin: 50px 0px 20px;
+}
+
+.projectheader {
+  padding: 0px 66px;
+
 }
 .project p {
   font-family: $bodyfont;
@@ -106,6 +124,13 @@ padding: 0px 66px;
 }
 
 @media (min-width: 320px) and (max-width: 500px){
+
+  .vtintropic {
+  background-image: url(../images/vtdisplay.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  }
 .projectdiv {
   width: 100%;
 }
