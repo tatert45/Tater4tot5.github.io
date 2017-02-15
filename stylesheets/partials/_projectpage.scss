@@ -7,16 +7,21 @@
 .project .projecttwointro{
   display: block;
   padding: 50px 100px 50px;
-  background-color: rgba(255, 200, 97, .6);
+  background-color: rgba(255, 200, 97, .9);
 }
+
+.project .projectthreeintro{
+  display: block;
+  padding: 50px 100px 0px;
+  background-color: rgba(197, 247, 110, .9);
+}
+
 
 .project .projectfourintro{
   display: block;
-  padding: 50px 100px 50px;
-  background-color: rgba(197, 247, 110, .6);
+  padding: 50px 100px 0px;
+  background-color: rgba(197, 247, 110, .8);
 }
-
-
 
 
 .intropic {
@@ -33,6 +38,12 @@ background-size: cover;
 height: 500px;
 }
 
+.branchintropic {
+  background-image: url(../images/Goodreadsdisplay.png);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
 .vtintropic {
 background-image: url(../images/vtdisplay.png);
 background-position: center;
@@ -108,9 +119,20 @@ padding: 0px 66px;
 }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+  .projectdiv {
+  width: 100%;
+  margin-bottom: 60px;
+  }
+  .process p{
+  clear: both;
+  padding: 0px 0px;
+  }
+  .projectheader {
+    padding: 0px 0px;
+
+  }
   .projectpicright{
   float: left;}
-
 }
 @media (min-width: 501px) and (max-width: 760px) {
 .projectdiv {
@@ -119,7 +141,14 @@ padding: 0px 66px;
 .projectpicright{
   padding: 20px 30px 0px 0px;
   float: left;
+}
+.projectheader {
+  padding: 0px 0px;
 
+}
+.process p{
+clear: both;
+padding: 0px 0px;
 }
 }
 
@@ -133,6 +162,14 @@ padding: 0px 66px;
   }
 .projectdiv {
   width: 100%;
+}
+.process p{
+clear: both;
+padding: 0px 10px;
+}
+.projectheader {
+  padding: 0px 10px;
+
 }
 .projectpicright{
   padding: 20px 30px 0px 0px;

@@ -11,95 +11,6 @@ p {
   font-weight: 300;
   line-height: 1.6; }
 
-#contact {
-  width: 100%;
-  padding: 0% 10%; }
-
-body {
-  font-family: "Open Sans", Helvetica, sans-serif;
-  line-height: 1.5;
-  color: #777;
-  font-size: 18px;
-  -webkit-font-smoothing: antialiased;
-  /* Fix for webkit rendering */
-  -webkit-text-size-adjust: 100%; }
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  /* 1 */
-  font-family: "Raleway", Helvetica, sans-serif;
-  margin: 0;
-  /* 3 */ }
-
-*, :after, :before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.ajax-form {
-  width: 100%; }
-
-.ajax-form input,
-.ajax-form textarea {
-  padding: 20px;
-  border: 3px solid #ccc;
-  border-radius: 6px;
-  margin: 0 0 27px;
-  background: #eee;
-  outline: none;
-  -webkit-transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out; }
-
-.ajax-form input:focus,
-.ajax-form textarea:focus {
-  border: 3px solid #ffc861;
-  color: #424651; }
-
-.ajax-form input[type="submit"] {
-  border: 3px solid #ffc861;
-  color: #4d4d4d; }
-
-.ajax-form input[type="submit"]:hover {
-  background-color: #efbf22;
-  border: 3px solid #efbf22;
-  color: white; }
-
-.name, .email {
-  width: 48%; }
-
-.name {
-  float: left; }
-
-.email {
-  float: right; }
-
-.message {
-  width: 100%; }
-
-.form-btn {
-  text-align: center; }
-
-.error {
-  border: 3px solid #ED1941 !important; }
-
-.form-thank-you {
-  display: none;
-  width: 100%;
-  text-align: center; }
-
-.form-thank-you h3 {
-  padding-top: 15px; }
-
-@media (max-width: 577px) {
-  .name, .email {
-    width: 100%;
-    float: none; } }
 .project .projectoneintro {
   display: block;
   padding: 50px 100px 50px;
@@ -108,12 +19,17 @@ textarea {
 .project .projecttwointro {
   display: block;
   padding: 50px 100px 50px;
-  background-color: rgba(255, 200, 97, 0.6); }
+  background-color: rgba(255, 200, 97, 0.9); }
+
+.project .projectthreeintro {
+  display: block;
+  padding: 50px 100px 0px;
+  background-color: rgba(197, 247, 110, 0.9); }
 
 .project .projectfourintro {
   display: block;
-  padding: 50px 100px 50px;
-  background-color: rgba(197, 247, 110, 0.6); }
+  padding: 50px 100px 0px;
+  background-color: rgba(197, 247, 110, 0.8); }
 
 .intropic {
   background-image: url(../images/SwimATXdisplay.png);
@@ -122,6 +38,12 @@ textarea {
   height: 500px; }
 
 .grintropic {
+  background-image: url(../images/Goodreadsdisplay.png);
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+
+.branchintropic {
   background-image: url(../images/Goodreadsdisplay.png);
   background-position: center;
   background-size: cover;
@@ -193,6 +115,17 @@ textarea {
   padding: 0px 66px; }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+  .projectdiv {
+    width: 100%;
+    margin-bottom: 60px; }
+
+  .process p {
+    clear: both;
+    padding: 0px 0px; }
+
+  .projectheader {
+    padding: 0px 0px; }
+
   .projectpicright {
     float: left; } }
 @media (min-width: 501px) and (max-width: 760px) {
@@ -201,7 +134,14 @@ textarea {
 
   .projectpicright {
     padding: 20px 30px 0px 0px;
-    float: left; } }
+    float: left; }
+
+  .projectheader {
+    padding: 0px 0px; }
+
+  .process p {
+    clear: both;
+    padding: 0px 0px; } }
 @media (min-width: 320px) and (max-width: 500px) {
   .vtintropic {
     background-image: url(../images/vtdisplay.png);
@@ -211,6 +151,13 @@ textarea {
 
   .projectdiv {
     width: 100%; }
+
+  .process p {
+    clear: both;
+    padding: 0px 10px; }
+
+  .projectheader {
+    padding: 0px 10px; }
 
   .projectpicright {
     padding: 20px 30px 0px 0px;
@@ -255,7 +202,7 @@ a:hover {
   clear: both; }
 
 .introimg {
-  padding-right: 5%;
+  padding-top: 2%;
   width: 100%;
   text-align: center; }
 
@@ -344,23 +291,47 @@ a:hover {
   clear: both;
   text-align: center; }
 
+.connect h2 {
+  padding-top: 20px; }
+.connect ul {
+  -webkit-padding-start: 0px; }
+.connect a {
+  text-decoration: none; }
+.connect .emailimg {
+  transition: 0.2s ease-in-out;
+  height: 120px; }
+.connect .emailimg:hover {
+  transform: rotate(20deg); }
+.connect .phoneimg {
+  transition: 0.3s ease-in-out;
+  height: 120px; }
+.connect .phoneimg:hover {
+  transform: rotate(-20deg); }
+.connect .contactimg li {
+  display: inline-block;
+  list-style: none;
+  padding: 2% 5%; }
+
+.socialcontainer {
+  clear: both; }
+
 .social {
   display: inline;
   height: 30px; }
 
 .social img {
-  transition: 0.3s ease-in;
-  height: 60px;
-  margin: 20px; }
+  transition: 0.2s ease-in;
+  height: 70px;
+  padding: 0px 30px; }
 
 .social img:hover {
-  height: 80px;
-  margin: 10px;
+  transform: scale(1.1);
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3)); }
 
 .footerdiv {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding-top: 75px; }
 
 .footerdiv ul {
   list-style: none;
@@ -375,6 +346,10 @@ a:hover {
   height: 50px; }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+  .social img {
+    height: 70px;
+    padding: 0px 20px; }
+
   .footerdiv li {
     display: inline;
     padding: 0px 40px; } }
@@ -416,6 +391,10 @@ a:hover {
   .worksample h2 {
     font-size: 1em;
     padding: 10px; }
+
+  .social img {
+    height: 60px;
+    padding: 0px 10px; }
 
   .footerdiv img {
     height: 40px; }
@@ -479,9 +458,18 @@ a:hover {
   .favorites {
     display: none; }
 
+  .connect .phoneimg {
+    height: 70px; }
+  .connect .emailimg {
+    height: 70px; }
+  .connect .contactimg li {
+    list-style: none;
+    display: block;
+    padding: 2% 5%; }
+
   .social img {
-    height: 44px;
-    margin: 5px; }
+    height: 45px;
+    padding: 0px 7px; }
 
   .footerdiv li {
     padding-top: 10px;

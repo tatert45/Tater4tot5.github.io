@@ -52,7 +52,7 @@ a:hover {
 }
 
 .introimg {
-  padding-right: 5%;
+  padding-top: 2%;
   width: 100%;
   text-align: center;
 
@@ -161,24 +161,61 @@ padding-right: 10px;}
   text-align: center;
 }
 
+.connect{
+  h2 {padding-top: 20px;}
+  ul {
+    -webkit-padding-start: 0px;
+  }
+
+
+  a {text-decoration: none;}
+
+ .emailimg{
+   transition: 0.2s ease-in-out;
+  height: 120px;
+}
+
+.emailimg:hover{
+  transform: rotate(20deg);
+}
+
+.phoneimg{
+  transition: 0.3s ease-in-out;
+ height: 120px;
+}
+
+.phoneimg:hover{
+ transform: rotate(-20deg);
+}
+.contactimg li{
+  display: inline-block;
+  list-style: none;
+  padding: 2% 5%;
+}
+
+}
+
+.socialcontainer {
+  clear:both;
+}
 .social {
   display: inline;
   height: 30px;}
 
 .social img {
-  transition: 0.3s ease-in;
-  height: 60px;
-  margin: 20px;}
+  transition: 0.2s ease-in;
+  height: 70px;
+  padding: 0px 30px;}
 
   .social img:hover{
-    height: 80px;
-    margin: 10px;
+    transform: scale(1.1);
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
 }
 
 .footerdiv {
   width: 100%;
 text-align: center;
+padding-top: 75px;
 }
 .footerdiv ul {
     list-style: none;
@@ -196,6 +233,10 @@ text-align: center;
 
 
 @media (min-width: 761px) and (max-width: 1000px) {
+
+  .social img {
+    height: 70px;
+    padding: 0px 20px;}
 .footerdiv li {
   display: inline;
   padding: 0px 40px;
@@ -250,6 +291,11 @@ text-align: center;
     font-size: 1em;
     padding:10px;
   }
+
+  .social img {
+    height: 60px;
+    padding: 0px 10px;}
+
   .footerdiv img {
     height: 40px;
   }
@@ -321,10 +367,27 @@ padding-right: 10px;}
 .favorites {
 display: none;
 }
+.connect{
+
+
+ .phoneimg{
+  height: 70px;
+}
+
+.emailimg {
+  height: 70px;
+}
+.contactimg li{
+  list-style: none;
+  display: block;
+  padding: 2% 5%;
+}
+
+}
 
 .social img {
-  height: 44px;
-  margin: 5px;}
+  height: 45px;
+  padding: 0px 7px;}
 
   .footerdiv li {
     padding-top: 10px;
