@@ -12,48 +12,56 @@ p {
   line-height: 1.6; }
 
 .project .projectoneintro {
-  display: block;
-  padding: 50px 100px 50px;
-  background-color: rgba(54, 197, 243, 0.3); }
+  background-color: rgba(54, 197, 243, 0.3);
+  overflow: hidden; }
+
+.projectoneintro {
+  padding: 5% 5% 15% 50%;
+  text-align: left;
+  background-attachment: fixed;
+  background-image: url(../images/SwimATXdisplay.png);
+  background-position: left;
+  background-size: 60%;
+  background-repeat: no-repeat; }
 
 .project .projecttwointro {
-  display: block;
-  padding: 50px 100px 50px;
+  overflow: hidden;
   background-color: rgba(255, 200, 97, 0.9); }
 
+.projecttwointro {
+  padding: 5% 5% 15% 50%;
+  text-align: left;
+  background-attachment: fixed;
+  background-image: url(../images/Goodreadsdisplay.png);
+  background-position: left;
+  background-size: 60%;
+  background-repeat: no-repeat; }
+
 .project .projectthreeintro {
-  display: block;
-  padding: 50px 100px 0px;
-  background-color: rgba(197, 247, 110, 0.9); }
+  overflow: hidden;
+  background-color: rgba(255, 133, 152, 0.6); }
+
+.projectthreeintro {
+  padding: 5% 15% 15% 50%;
+  text-align: left;
+  background-attachment: fixed;
+  background-image: url(../images/branchless.gif);
+  background-position: 10% 50%;
+  background-size: 40%;
+  background-repeat: no-repeat; }
 
 .project .projectfourintro {
-  display: block;
-  padding: 50px 100px 0px;
+  overflow: hidden;
   background-color: rgba(197, 247, 110, 0.8); }
 
-.intropic {
-  background-image: url(../images/SwimATXdisplay.png);
-  background-position: center;
-  background-size: cover;
-  height: 500px; }
-
-.grintropic {
-  background-image: url(../images/Goodreadsdisplay.png);
-  background-position: center;
-  background-size: cover;
-  height: 500px; }
-
-.branchintropic {
-  background-image: url(../images/Goodreadsdisplay.png);
-  background-position: center;
-  background-size: cover;
-  height: 500px; }
-
-.vtintropic {
+.projectfourintro {
+  padding: 5% 5% 15% 50%;
+  text-align: left;
+  background-attachment: fixed;
   background-image: url(../images/vtdisplay.png);
-  background-position: center;
-  background-size: cover;
-  height: 600px; }
+  background-position: left;
+  background-size: 60%;
+  background-repeat: no-repeat; }
 
 .introp {
   margin-bottom: 10px;
@@ -143,11 +151,29 @@ p {
     clear: both;
     padding: 0px 0px; } }
 @media (min-width: 320px) and (max-width: 500px) {
-  .vtintropic {
-    background-image: url(../images/vtdisplay.png);
-    background-position: center;
-    background-size: cover;
-    height: 200px; }
+  .projectoneintro {
+    text-align: center;
+    background-position: 50% 70%;
+    padding: 5% 10% 50%;
+    background-size: contain; }
+
+  .projecttwointro {
+    text-align: center;
+    background-position: 50% 90%;
+    padding: 5% 10% 50%;
+    background-size: contain; }
+
+  .projectthreeintro {
+    text-align: center;
+    background-position: 50% 70%;
+    padding: 5% 10% 50%;
+    background-size: 50%; }
+
+  .projectfourintro {
+    text-align: center;
+    background-position: 50% 70%;
+    padding: 5% 10% 50%;
+    background-size: contain; }
 
   .projectdiv {
     width: 100%; }
