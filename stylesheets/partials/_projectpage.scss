@@ -1,5 +1,8 @@
+.project a {
+  text-decoration: none;
+}
+
 .project .projectoneintro{
-  background-color: rgba(54, 197, 243, .3);
   overflow: hidden;
 }
 .projectoneintro {
@@ -14,7 +17,6 @@
 
 .project .projecttwointro{
   overflow: hidden;
-  background-color: rgba(255, 200, 97, .9);
 }
 
 .projecttwointro {
@@ -28,7 +30,6 @@
 }
 .project .projectthreeintro{
   overflow: hidden;
-  background-color: rgba(255, 133, 152, .6);
 }
 .projectthreeintro {
   padding: 5% 15% 15% 50%;
@@ -43,7 +44,6 @@
 
 .project .projectfourintro{
   overflow: hidden;
-  background-color: rgba(197, 247, 110, .8);
 }
 
 .projectfourintro {
@@ -58,13 +58,13 @@
 
 
 .introp {
-margin-bottom: 10px;
+line-height: 1.6;
 font-family: $bodyfont;
 }
 
 .project .problem, .process{
 text-align: left;
-margin: 0% 10%;
+margin: 0% 7%;
 }
 .problem h1 {
 margin: 50px 0px 20px;
@@ -167,14 +167,14 @@ padding: 0px 0px;
   }
   .projecttwointro {
     text-align: center;
-    background-position: 50% 90%;
+    background-position: 50% 80%;
     padding: 5% 10% 50%;
     background-size: contain;
   }
   .projectthreeintro {
     text-align: center;
-    background-position: 50% 70%;
-    padding: 5% 10% 50%;
+    background-position: 55% 70%;
+    padding: 5% 10% 60%;
     background-size: 50%;
   }
   .projectfourintro {
