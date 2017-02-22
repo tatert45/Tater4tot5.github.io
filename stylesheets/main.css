@@ -103,25 +103,35 @@ p {
   opacity: .75; }
 
 .study1 {
-  background-image: url("../images/SwimATXsolid.png"); }
+  background-image: url("../images/SwimATXsolid.png");
+  background-position: center center; }
 
 .study2 {
-  background-image: url("../images/brsolid.png"); }
+  background-image: url("../images/brsolid.png");
+  background-position: center center; }
 
 .study3 {
-  background-image: url("../images/GRsolid.png"); }
+  background-image: url("../images/GRsolid.png");
+  background-position: center center; }
 
 .study4 {
-  background-image: url("../images/vtsolid.png"); }
+  background-image: url("../images/vtsolid.png");
+  background-position: center center; }
 
 .study5 {
-  background-image: url("../images/shesolid.png"); }
+  background-image: url("../images/shesolid.png");
+  background-position: center center; }
 
 .study6 {
-  background-image: url("../images/tjsolid.png"); }
+  background-image: url("../images/tjsolid.png");
+  background-position: center center; }
 
-.project a {
-  text-decoration: none; }
+.rfp {
+  text-decoration: none;
+  color: #37c6f4; }
+
+.rfp:hover {
+  color: #4d4d4d; }
 
 .project .projectoneintro {
   overflow: hidden; }
@@ -148,16 +158,24 @@ p {
   background-repeat: no-repeat; }
 
 .project .projectthreeintro {
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0 auto;
+  min-height: 500px; }
 
-.projectthreeintro {
-  padding: 5% 15% 15% 50%;
+.intro_text {
+  position: relative;
+  width: 60%;
+  float: right;
   text-align: left;
-  background-attachment: fixed;
-  background-image: url(../images/branchless.gif);
-  background-position: 10% 50%;
-  background-size: 35%;
-  background-repeat: no-repeat; }
+  padding: 5% 5%; }
+
+.branchintropic {
+  float: left;
+  position: fixed;
+  left: 5%; }
+
+.branchintropic img {
+  width: 350px; }
 
 .project .projectfourintro {
   overflow: hidden; }
@@ -178,6 +196,12 @@ p {
 .project .problem, .process {
   text-align: left;
   margin: 0% 7%; }
+
+.branchproblem {
+  padding-top: 2%;
+  background: white;
+  position: relative;
+  z-index: 1; }
 
 .problem h1 {
   margin: 50px 0px 20px; }
@@ -231,6 +255,18 @@ p {
   padding: 0px 66px; }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+  .intro_text {
+    position: relative;
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding: 5% 5% 0%; }
+
+  .project .projectthreeintro {
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 600px; }
+
   .projectdiv {
     width: 100%;
     margin-bottom: 60px; }
@@ -245,6 +281,26 @@ p {
   .projectpicright {
     float: left; } }
 @media (min-width: 501px) and (max-width: 760px) {
+  .intro_text {
+    position: relative;
+    width: 90%;
+    float: none;
+    text-align: left;
+    padding: 5% 5% 0%; }
+
+  .branchintropic {
+    width: 90%;
+    float: none;
+    position: fixed; }
+
+  .branchintropic img {
+    width: 300px; }
+
+  .project .projectthreeintro {
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 600px; }
+
   .projectdiv {
     width: 100%; }
 
@@ -259,6 +315,21 @@ p {
     clear: both;
     padding: 0px 0px; } }
 @media (min-width: 320px) and (max-width: 500px) {
+  .intro_text {
+    position: relative;
+    width: 90%;
+    float: none;
+    text-align: center;
+    padding: 5% 5% 0%; }
+
+  .branchintropic {
+    width: 100%;
+    float: none;
+    position: fixed; }
+
+  .branchintropic img {
+    width: 300px; }
+
   .projectoneintro {
     text-align: center;
     background-position: 50% 70%;
