@@ -173,6 +173,9 @@ padding-right: 10px;}
 }
 
 .footerdiv {
+  background: white;
+  z-index: 3;
+  position: relative;
   width: 100%;
 text-align: center;
 padding-top: 100px;

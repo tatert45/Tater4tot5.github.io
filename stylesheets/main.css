@@ -160,7 +160,7 @@ p {
 .project .projectthreeintro {
   overflow: hidden;
   margin: 0 auto;
-  max-height: 600px; }
+  height: 600px; }
 
 .intro_text {
   position: relative;
@@ -508,6 +508,9 @@ a:hover {
   filter: drop-shadow(0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)); }
 
 .footerdiv {
+  background: white;
+  z-index: 3;
+  position: relative;
   width: 100%;
   text-align: center;
   padding-top: 100px; }
