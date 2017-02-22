@@ -36,7 +36,8 @@
 .project .projectthreeintro{
     overflow: hidden;
     margin: 0 auto;
-    min-height: 500px;
+    max-height: 600px;
+
 }
 .intro_text {
   position: relative;
@@ -44,11 +45,13 @@
   float: right;
   text-align: left;
   padding: 5% 5%;
+
 }
 .branchintropic {
   float: left;
-  position: fixed;
+  position:fixed;
   left: 5%;
+
 }
 .branchintropic img {
   width: 350px;
@@ -83,7 +86,7 @@ margin: 0% 7%;
   padding-top: 2%;
   background: white;
   position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 .problem h1 {
 margin: 50px 0px 20px;

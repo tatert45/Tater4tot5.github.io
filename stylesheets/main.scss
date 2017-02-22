@@ -1,6 +1,7 @@
 @import "partials/typography";
 @import "partials/gallery";
 @import "partials/projectpage";
+@import "partials/construction";
 
 $primarycolor: #37c6f4;
 
@@ -347,6 +348,10 @@ display: none;
 .social img {
   height: 45px;
   padding: 0px 7px;}
+
+  .footerdiv {
+  padding-top: 50px;
+  }
 
   .footerdiv li {
     padding-top: 10px;
