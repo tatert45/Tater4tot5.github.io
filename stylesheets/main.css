@@ -367,6 +367,23 @@ p {
   .projectpicright {
     padding: 20px 30px 0px 0px;
     float: left; } }
+.skillsection {
+  margin-bottom: 50px; }
+
+.skills {
+  text-align: center;
+  display: flex;
+  padding: 20px; }
+  .skills h1 {
+    width: 100%; }
+  .skills .skillsolo {
+    width: 20%;
+    margin: 0% 2.5%; }
+  .skills .skillgraphic img {
+    height: 200px; }
+  .skills .skillinfo h2 {
+    margin-bottom: 0%; }
+
 .construction {
   text-align: center; }
   .construction .constructiontext {
@@ -412,13 +429,14 @@ a:hover {
 .intro {
   text-align: center;
   color: #4d4d4d;
-  padding: 40px;
+  padding: 40px 40px 60px;
   clear: both; }
 
 .introimg {
   padding-top: 2%;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 5%; }
 
 .work {
   width: 100%;
@@ -513,7 +531,7 @@ a:hover {
   position: relative;
   width: 100%;
   text-align: center;
-  padding-top: 100px; }
+  padding-top: 150px; }
 
 .footerdiv ul {
   list-style: none;
@@ -528,6 +546,9 @@ a:hover {
   height: 50px; }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+  .skills .skillgraphic img {
+    height: 150px; }
+
   .social img {
     height: 70px;
     padding: 0px 20px; }
@@ -536,6 +557,9 @@ a:hover {
     display: inline;
     padding: 0px 40px; } }
 @media (min-width: 501px) and (max-width: 760px) {
+  .skills .skillgraphic img {
+    height: 100px; }
+
   .navbar img {
     height: 80px;
     margin: 30px 20px 20px 30px; }
@@ -584,6 +608,9 @@ a:hover {
   .footerdiv li {
     padding: 0px 10px; } }
 @media (min-width: 320px) and (max-width: 500px) {
+  .skillsection {
+    display: none; }
+
   .intropic {
     height: 200px; }
 
@@ -654,7 +681,7 @@ a:hover {
     padding: 0px 7px; }
 
   .footerdiv {
-    padding-top: 50px; }
+    padding-top: 100px; }
 
   .footerdiv li {
     padding-top: 10px;
