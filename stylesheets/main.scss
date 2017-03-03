@@ -118,6 +118,10 @@ padding-right: 10px;}
   margin: 0px;
 }
 
+.resume {
+  padding: 2.5%;
+}
+
 #contact {
   clear: both;
   text-align: center;
@@ -278,6 +282,9 @@ padding-top: 150px;
 
 @media (min-width: 320px) and (max-width: 500px){
 
+.resume img{
+max-height: 500px;
+padding: 2% 2% 2% 0%;}
 
   .skillsection{
     display: none;
