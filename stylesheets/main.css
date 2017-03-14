@@ -393,6 +393,9 @@ p {
     max-width: 400px;
     margin: 0% 5%; }
 
+.case-study_mobile {
+  display: none; }
+
 .navbar {
   box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
   background-color: none;
@@ -611,6 +614,22 @@ a:hover {
   .footerdiv li {
     padding: 0px 10px; } }
 @media (min-width: 320px) and (max-width: 500px) {
+  .case-study__overlay {
+    display: none; }
+
+  .case-study {
+    margin: 0; }
+
+  .case-study_mobile {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: 0% 0% 10%;
+    padding: 5% 0%;
+    display: block;
+    background: white;
+    font-size: 2em;
+    text-decoration: none; }
+
   .resume img {
     max-height: 500px;
     padding: 2% 2% 2% 0%; }
@@ -638,7 +657,7 @@ a:hover {
     padding-left: 5px; }
 
   .navbar a {
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 10px; }
 
   .intro {
