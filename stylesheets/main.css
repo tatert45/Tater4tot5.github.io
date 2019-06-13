@@ -11,6 +11,7 @@ p {
   font-weight: 300;
   line-height: 1.6; }
 
+
 .case-study-gallery {
   margin-top: 50px;
   width: 90%;
@@ -367,8 +368,18 @@ p {
   .projectpicright {
     padding: 20px 30px 0px 0px;
     float: left; } }
+
+    .biodiv {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
 .skillsection {
-  margin-bottom: 50px; }
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 1100px;
+}
 
 .skills {
   text-align: center;
@@ -380,7 +391,7 @@ p {
     width: 20%;
     margin: 0% 2.5%; }
   .skills .skillgraphic img {
-    height: 200px; }
+    height: 100px; }
   .skills .skillinfo h2 {
     margin-bottom: 0%; }
 
@@ -466,10 +477,7 @@ a:hover {
   padding-right: 10px; }
 
 .bio p {
-  text-indent: 2em; }
-
-.favorites {
-  padding: 10px 30px 60px; }
+  padding-right: 10px; }
 
 .favorites li {
   list-style: none; }
@@ -501,30 +509,51 @@ a:hover {
 .connect a {
   text-decoration: none; }
 .connect .emailimg {
-  transition: 0.2s ease-in-out;
-  height: 120px; }
+  height: 100px;
+}
 .connect .emailimg:hover {
-  transform: rotate(20deg); }
+  transition: 0.2s cubic-bezier(.36,.07,.19,.97) both;
+  animation: shake .5s 2; }
+
+  @keyframes shake {
+  0% {
+   transform: rotate(0deg);
+ }
+ 50% {
+   transform:rotate(20deg);
+ }
+ 100% {
+   transform:rotate(-20deg);
+ }
+ }
 .connect .phoneimg {
-  transition: 0.3s ease-in-out;
-  height: 120px; }
+  height: 100px;
+   }
 .connect .phoneimg:hover {
-  transform: rotate(-20deg); }
+  transition: 0.2s cubic-bezier(.36,.07,.19,.97) both;
+  animation: shake .5s 2; }
+
 .connect .contactimg li {
+  min-width: 150px;
   display: inline-block;
   list-style: none;
-  padding: 2% 5%; }
+  padding: 1rem 2rem; }
 
 .socialcontainer {
   clear: both; }
 
+.socialcontainer h2 {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
 .social {
   display: inline;
-  height: 30px; }
+  height: 20px; }
 
 .social img {
   transition: 0.2s ease-in;
-  height: 70px;
+  height: 60px;
   padding: 0px 30px; }
 
 .social img:hover {
@@ -672,6 +701,7 @@ a:hover {
   .worksample {
     width: 300px;
     height: 300px; }
+
 
   .bio {
     width: 90%;
