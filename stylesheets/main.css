@@ -363,6 +363,7 @@ p {
     .biodiv {
       max-width: 1100px;
       margin: 0 auto;
+      padding-top: 1em;
     }
 
 .skillsection {
