@@ -5,11 +5,15 @@ h1, h2, h3, a, li {
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 400;
   color: #4d4d4d; }
+h2 {
+  line-height: 1.6;
+}
 
 p {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 300;
-  line-height: 1.6; }
+  line-height: 1.6;
+  color: #4d4d4d; }
 
 
 .case-study-gallery {
@@ -68,13 +72,21 @@ p {
   top: -200px;
   margin-bottom: 2rem;
   margin-top: 4rem;
-  font-size: 2.25rem;
-  font-family: 'Raleway';
-  font-weight: 100;
-  color: white;
   text-align: center;
   letter-spacing: 1px;
   transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3); }
+
+  .case-study__title h2{
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white; }
+
+  .case-study__title p{
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white; }
+
+
 
 .case-study__link {
   position: relative;
@@ -161,20 +173,15 @@ p {
 
 .project .projectthreeintro {
   overflow: hidden;
-  margin: 0 auto;
-  height: 600px; }
+}
 
 .intro_text {
   position: relative;
-  width: 60%;
+  width: 65%;
   float: right;
   text-align: left;
-  padding: 5% 5%; }
+  padding: 5% 2%; }
 
-.branchintropic {
-  float: left;
-  position: fixed;
-  left: 5%; }
 
 .branchintropic img {
   width: 350px; }
@@ -185,9 +192,8 @@ p {
 .projectfourintro {
   padding: 5% 50% 15% 5%;
   text-align: left;
-  background-attachment: fixed;
   background-image: url(../images/vtdisplay.png);
-  background-position: 90% 50%;
+  background-position: right;
   background-size: 70%;
   background-repeat: no-repeat; }
 
@@ -214,10 +220,6 @@ p {
 .projectheader {
   padding: 0px 66px; }
 
-.project p {
-  font-family: "Open Sans", Helvetica, sans-serif;
-  font-weight: 400;
-  line-height: 1.6; }
 
 .projectdiv {
   float: left;
@@ -262,12 +264,12 @@ p {
     width: 50%;
     float: right;
     text-align: left;
-    padding: 5% 5% 0%; }
+    padding: 5% 2% 0%; }
 
   .project .projectthreeintro {
     overflow: hidden;
     margin: 0 auto;
-    min-height: 600px; }
+}
 
   .projectdiv {
     width: 100%;
@@ -290,18 +292,13 @@ p {
     text-align: left;
     padding: 5% 5% 0%; }
 
-  .branchintropic {
-    width: 90%;
-    float: none;
-    position: fixed; }
 
   .branchintropic img {
     width: 300px; }
 
   .project .projectthreeintro {
     overflow: hidden;
-    margin: 0 auto;
-    min-height: 600px; }
+    margin: 0 auto; }
 
   .projectdiv {
     width: 100%; }
@@ -321,13 +318,8 @@ p {
     position: relative;
     width: 90%;
     float: none;
-    text-align: center;
     padding: 5% 5% 0%; }
 
-  .branchintropic {
-    width: 100%;
-    float: none;
-    position: fixed; }
 
   .branchintropic img {
     width: 300px; }
@@ -346,9 +338,7 @@ p {
 
   .projectthreeintro {
     text-align: center;
-    background-position: 55% 70%;
-    padding: 5% 10% 60%;
-    background-size: 50%; }
+    background-size: 30%; }
 
   .projectfourintro {
     text-align: center;
@@ -416,9 +406,9 @@ p {
   overflow: hidden; }
 
 .navbar img {
-  float: left;
-  height: 90px;
-  margin: 30px 20px 20px 60px; }
+  height: 70px;
+  margin: 20px 20px 10px 50px;
+   }
 
 .navbar ul {
   float: right;
@@ -430,6 +420,11 @@ p {
 
 .navli {
   display: inline; }
+
+.navbar #logo{
+  float: left;
+
+}
 
 .navbar a {
   text-decoration: none;
@@ -447,8 +442,14 @@ a:hover {
   padding: 40px 40px 60px;
   clear: both; }
 
+.intro h2 {
+  line-height: 1.6;
+}
+
+
+
 .introimg {
-  padding-top: 2%;
+  padding-top: 4%;
   width: 100%;
   text-align: center;
   margin-bottom: 5%; }
@@ -475,7 +476,7 @@ a:hover {
 .bio img {
   height: 200px;
   float: left;
-  padding-right: 10px; }
+  padding-right: 2em; }
 
 .bio p {
   padding-right: 10px; }
@@ -657,7 +658,7 @@ a:hover {
     padding: 5% 0%;
     display: block;
     background: white;
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none; }
 
   .resume img {
@@ -677,24 +678,22 @@ a:hover {
     font-size: 1.2em; }
 
   .navbar img {
-    height: 60px;
+    height: 45px;
     margin: 10px 10px 10px 20px; }
 
   .navbar ul {
-    padding: 10px 20px 10px 10px; }
+    padding: 15px 25px 0px 10px; }
 
   .navbar li {
     padding-left: 5px; }
 
   .navbar a {
-    font-size: 1.1em;
+    font-size: 1em;
     padding: 10px; }
 
   .intro {
-    padding: 20px; }
+    padding: 1rem; }
 
-  .intro h2 {
-    padding: 20px; }
 
   .intro img {
     width: 100%; }
@@ -713,12 +712,11 @@ a:hover {
     margin: 10px; }
 
   .bio img {
-    height: 100px;
+    height: 150px;
     float: left;
     padding-right: 10px; }
 
   .bio p {
-    text-indent: 2em;
     font-size: 1em; }
 
   .favorites {
