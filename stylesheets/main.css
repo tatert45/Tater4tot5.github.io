@@ -389,12 +389,38 @@ p {
 
 .construction {
   text-align: center; }
+
+  .constructiontext h2 {
+    margin-bottom: 2em;
+      font-weight: 300;
+  }
+
+.constructiontext a{
+    text-decoration: none;
+  ;
+}
+.constructiontext p{
+    visibility: hidden;
+}
+
+.constructiontext p:hover{
+    visibility: visible;
+}
+
   .construction .constructiontext {
-    margin: 5%; }
+    margin: 7%; }
+
   .construction img {
+    transition: 0.2s ease-in;
     text-align: center;
-    max-width: 400px;
-    margin: 0% 5%; }
+    max-width: 100px;
+    margin: 2% 4%;
+    border-radius: 50px;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);}
+
+  .construction img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)); }
 
 .case-study_mobile {
   display: none; }
