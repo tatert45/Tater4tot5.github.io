@@ -140,6 +140,10 @@ p {
   background-image: url("../images/tjsolid.jpg");
   background-position: center center; }
 
+.study7 {
+    background-image: url("../images/beginnerindex.png");
+    background-position: center center; }
+
 .rfp {
   text-decoration: none;
   color: #37c6f4; }
@@ -177,12 +181,24 @@ p {
 
 .intro_text {
   position: relative;
-  width: 65%;
+  max-width: 60%;
   float: right;
   text-align: left;
-  padding: 5% 2%; }
+  margin: 5% 2% 5% 1%;
+  background: white;}
+
+.projectbeginintro {
+    overflow: hidden;
+  }
+  .projectbeginintro img{
+    z-index: -10000000;
+    max-width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
 
 
+}
 .branchintropic img {
   width: 350px; }
 
