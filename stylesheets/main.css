@@ -252,6 +252,9 @@ p {
 .grcompare {
   height: 250px; }
 
+.begincompare {
+    height: 400px; }
+
 .projectpicright {
   clear: both;
   float: right; }
