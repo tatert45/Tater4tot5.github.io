@@ -124,6 +124,11 @@ p {
   background-image: url("../images/brsolid.jpg");
   background-position: center center; }
 
+.studyprax {
+    background-image: url("../images/praxiogreen.png");
+    background-position: center center; }
+
+
 .study3 {
   background-image: url("../images/GRsolid.jpg");
   background-position: center center; }
@@ -150,6 +155,18 @@ p {
 
 .rfp:hover {
   color: #4d4d4d; }
+
+  .project .projectpraxintro {
+    overflow: hidden; }
+
+  .projectpraxintro {
+    text-align: left;
+     }
+  .projectpraxintro img{
+       max-width: 500px;
+       margin-top: 5%;
+       margin-left: 4rem;
+        }
 
 .project .projectoneintro {
   overflow: hidden; }
@@ -181,10 +198,10 @@ p {
 
 .intro_text {
   position: relative;
-  max-width: 60%;
+  max-width: 50%;
   float: right;
   text-align: left;
-  margin: 5% 2% 5% 1%;
+  margin: 5% 10% 5% 1%;
   background: white;}
 
 .projectbeginintro {
@@ -239,18 +256,21 @@ p {
 
 .projectdiv {
   float: left;
-  width: 60%;
+  width: 56%;
   margin-bottom: 80px; }
 
 .projectpicleft {
   clear: both;
   float: left;
-  width: 30%;
+  width: 38%;
   padding: 20px 30px 0px 0px;
   margin-right: 30px; }
 
 .grcompare {
   height: 250px; }
+
+.prcompare {
+  height: 450px; }
 
 .begincompare {
     height: 400px; }
