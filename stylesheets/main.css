@@ -124,10 +124,6 @@ p {
   background-image: url("../images/brsolid.jpg");
   background-position: center center; }
 
-.studyprax {
-    background-image: url("../images/praxiogreen.png");
-    background-position: center center; }
-
 
 .study3 {
   background-image: url("../images/GRsolid.jpg");
@@ -149,6 +145,10 @@ p {
     background-image: url("../images/beginnerindex.png");
     background-position: center center; }
 
+.studyprax {
+        background-image: url("../images/praxiogreen.png");
+        background-position: center center; }
+
 .rfp {
   text-decoration: none;
   color: #37c6f4; }
@@ -165,7 +165,7 @@ p {
   .projectpraxintro img{
        max-width: 500px;
        margin-top: 5%;
-       margin-left: 4rem;
+       margin-left: 2rem;
         }
 
 .project .projectoneintro {
