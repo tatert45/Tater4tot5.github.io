@@ -455,6 +455,8 @@ p {
     height: 100px; }
   .skills .skillinfo h2 {
     margin-bottom: 0%; }
+    .skills .skillinfo p {
+      text-align: center; }
 
 .construction {
   text-align: center; }
