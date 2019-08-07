@@ -590,7 +590,7 @@ a:hover {
 
 .favorites p {
   margin-bottom: 10px;
-  font-weight: 400; }
+  text-align: center; }
 
 .favorites img {
   height: 70px;
