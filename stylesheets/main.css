@@ -84,7 +84,8 @@ p {
   .case-study__title p{
     font-family: 'Raleway';
     font-weight: 100;
-    color: white; }
+    color: white; 
+    text-align: center;}
 
 
 
