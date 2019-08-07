@@ -580,11 +580,13 @@ a:hover {
   padding-right: 10px; }
 
 .favorites li {
-  list-style: none; }
+  list-style: none;
+  display: inline-block;}
 
 .favorites a {
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  margin: 2em;}
 
 .favorites p {
   margin-bottom: 10px;
