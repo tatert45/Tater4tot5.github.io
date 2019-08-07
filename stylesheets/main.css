@@ -204,6 +204,23 @@ p {
   margin: 5% 10% 5% 1%;
   background: white;}
 
+    .labprojectintro {
+      display: inline-block;
+    }
+
+    .labpic {
+      float:left;
+      padding: 0em 2em 2em 0em;
+    }
+
+    .labintro_text {
+      margin: 2em;
+    }
+
+   .labintro_text h1, h3, p{
+        text-align: left;
+        }
+
 .projectbeginintro {
     overflow: hidden;
   }
@@ -235,6 +252,7 @@ p {
   font-family: "Open Sans", Helvetica, sans-serif; }
 
 .project .problem, .process {
+  clear: both;
   text-align: left;
   margin: 0% 7%; }
 
@@ -257,17 +275,16 @@ p {
 .projectdiv {
   float: left;
   width: 56%;
-  margin-bottom: 80px; }
+  margin-bottom: 2rem; }
 
 .projectpicleft {
   clear: both;
   float: left;
-  width: 38%;
   padding: 20px 30px 0px 0px;
   margin-right: 30px; }
 
 .grcompare {
-  height: 250px; }
+  width: 360px; }
 
 .prcompare {
   height: 450px; }
@@ -285,19 +302,22 @@ p {
 .number {
   float: left;
   height: 50px;
-  padding: 5px 10px 0px 10px; }
-
+  padding: 1em }
 .numberheader {
-  float: left; }
-
+  display: inline;
+}
 .numberheader h2 {
-  margin: 15px 0px 10px; }
+  margin: 1em 10px; }
 
 .process p {
   clear: both;
   padding: 0px 66px; }
 
 @media (min-width: 761px) and (max-width: 1000px) {
+
+  .skillgraphic img {
+    height: 80px; }
+
   .intro_text {
     position: relative;
     width: 50%;
@@ -331,6 +351,9 @@ p {
     text-align: left;
     padding: 5% 5% 0%; }
 
+    .labintro_text {
+        margin: 0% 7%;
+      }
 
   .branchintropic img {
     width: 300px; }
@@ -352,7 +375,14 @@ p {
   .process p {
     clear: both;
     padding: 0px 0px; } }
+
 @media (min-width: 320px) and (max-width: 500px) {
+
+.number {
+    float:left;
+    height: 35px;
+    padding: 1em 1em 0em 0em}
+
   .intro_text {
     position: relative;
     width: 90%;
@@ -792,10 +822,7 @@ a:hover {
     height: 70px; }
   .connect .emailimg {
     height: 70px; }
-  .connect .contactimg li {
-    list-style: none;
-    display: block;
-    padding: 2% 5%; }
+
 
   .social img {
     height: 45px;
