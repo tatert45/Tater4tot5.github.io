@@ -84,7 +84,7 @@ p {
   .case-study__title p{
     font-family: 'Raleway';
     font-weight: 100;
-    color: white; 
+    color: white;
     text-align: center;}
 
 
@@ -157,17 +157,9 @@ p {
 .rfp:hover {
   color: #4d4d4d; }
 
-  .project .projectpraxintro {
-    overflow: hidden; }
-
-  .projectpraxintro {
+  .labprojectintro {
     text-align: left;
      }
-  .projectpraxintro img{
-       max-width: 500px;
-       margin-top: 5%;
-       margin-left: 2rem;
-        }
 
 .project .projectoneintro {
   overflow: hidden; }
@@ -214,8 +206,14 @@ p {
       padding: 0em 2em 2em 0em;
     }
 
+    .praxpic {
+      float:left;
+      max-height: 350px;
+      padding: 0em 2em 2em 0em;
+    }
+
     .labintro_text {
-      margin: 2em;
+      margin: 2em 2em 0em 2em;
     }
 
    .labintro_text h1, h3, p{
@@ -255,7 +253,7 @@ p {
 .project .problem, .process {
   clear: both;
   text-align: left;
-  margin: 0% 7%; }
+  margin: 2rem 7%; }
 
 .branchproblem {
   padding-top: 2%;
@@ -264,10 +262,10 @@ p {
   z-index: 3; }
 
 .problem h1 {
-  margin: 50px 0px 20px; }
+  margin: 2em 0em 0em; }
 
 .process h1 {
-  margin: 50px 0px 20px; }
+  margin: 2em 0em 0em; }
 
 .projectheader {
   padding: 0px 66px; }
@@ -275,20 +273,19 @@ p {
 
 .projectdiv {
   float: left;
-  width: 56%;
+  width: 60%;
   margin-bottom: 2rem; }
 
 .projectpicleft {
   clear: both;
   float: left;
-  padding: 20px 30px 0px 0px;
-  margin-right: 30px; }
+  padding: 20px 30px 0px 0px; }
 
 .grcompare {
   width: 360px; }
 
 .prcompare {
-  height: 450px; }
+  height: 360px; }
 
 .begincompare {
     height: 400px; }
@@ -311,8 +308,7 @@ p {
   margin: 1em 10px; }
 
 .process p {
-  clear: both;
-  padding: 0px 66px; }
+  padding: 0px 2rem; }
 
 @media (min-width: 761px) and (max-width: 1000px) {
 
@@ -345,6 +341,7 @@ p {
   .projectpicright {
     float: left; } }
 @media (min-width: 501px) and (max-width: 760px) {
+
   .intro_text {
     position: relative;
     width: 90%;
@@ -353,8 +350,14 @@ p {
     padding: 5% 5% 0%; }
 
     .labintro_text {
+        display: block;
         margin: 0% 7%;
       }
+  .praxpic {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
 
   .branchintropic img {
     width: 300px; }
