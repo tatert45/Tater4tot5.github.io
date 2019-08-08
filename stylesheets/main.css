@@ -253,7 +253,7 @@ p {
 .project .problem, .process {
   clear: both;
   text-align: left;
-  margin: 2rem 7%; }
+  margin: 2rem 3rem; }
 
 .branchproblem {
   padding-top: 2%;
@@ -262,7 +262,7 @@ p {
   z-index: 3; }
 
 .problem h1 {
-  margin: 2em 0em 0em; }
+  margin: 1em 0em 0em; }
 
 .process h1 {
   margin: 2em 0em 0em; }
@@ -273,7 +273,7 @@ p {
 
 .projectdiv {
   float: left;
-  width: 60%;
+  width: 58%;
   margin-bottom: 2rem; }
 
 .projectpicleft {
@@ -282,10 +282,10 @@ p {
   padding: 20px 30px 0px 0px; }
 
 .grcompare {
-  width: 360px; }
+  width: 300px; }
 
 .prcompare {
-  height: 360px; }
+  height: 300px; }
 
 .begincompare {
     height: 400px; }
@@ -295,7 +295,7 @@ p {
   float: right; }
 
 .projectpicright img {
-  height: 300px; }
+  max-height: 350px; }
 
 .number {
   float: left;
@@ -351,9 +351,10 @@ p {
 
     .labintro_text {
         display: block;
-        margin: 0% 7%;
+        margin: 0% 5%;
       }
   .praxpic {
+    padding: 0;
     display: block;
     float: none;
     margin: 0 auto;
@@ -434,7 +435,7 @@ p {
     float: left; } }
 
     .biodiv {
-      max-width: 1100px;
+      width:90%;
       margin: 0 auto;
       padding-top: 1em;
     }
@@ -443,7 +444,7 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 50px;
-    max-width: 1100px;
+    width: 90%;
 }
 
 .skills {
