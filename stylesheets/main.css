@@ -488,7 +488,11 @@ p {
   .construction .constructiontext {
     margin: 7%; }
 
-  .construction img {
+    .tatedoh {
+      height: 300px;
+    }
+
+  .constructionsocial img {
     transition: 0.2s ease-in;
     text-align: center;
     max-width: 80px;
@@ -496,7 +500,7 @@ p {
     border-radius: 50px;
     box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);}
 
-  .construction img:hover {
+  .constructionsocial img:hover {
     transform: scale(1.1);
     filter: drop-shadow(0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)); }
 
