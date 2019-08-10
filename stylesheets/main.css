@@ -173,9 +173,6 @@ p {
   background-size: 60%;
   background-repeat: no-repeat; }
 
-.project .projecttwointro {
-  overflow: hidden; }
-
 .projecttwointro {
   padding: 5% 5% 15% 50%;
   text-align: left;
@@ -184,6 +181,7 @@ p {
   background-position: left;
   background-size: 60%;
   background-repeat: no-repeat; }
+
 
 .project .projectthreeintro {
   overflow: hidden;
@@ -228,8 +226,7 @@ p {
     max-width: 400px;
     position: absolute;
     top: 150px;
-    left: 100px;
-
+    left: 60px;
 
 }
 .branchintropic img {
@@ -406,8 +403,8 @@ p {
 
   .projecttwointro {
     text-align: center;
-    background-position: 50% 80%;
-    padding: 5% 10% 50%;
+    background-position: 50% 90%;
+    padding: 5% 10% 60%;
     background-size: contain; }
 
   .projectthreeintro {
