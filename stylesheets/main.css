@@ -125,6 +125,18 @@ p {
   background-image: url("../images/brsolid.jpg");
   background-position: center center; }
 
+.candc {
+  background-image: url("../images/candc.png");
+  background-position: center center; }
+
+.tandc {
+  background-image: url("../images/tandc.png");
+  background-position: center center; }
+
+  .mma {
+    background-image: url("../images/mma.png");
+    background-position: center center; }
+
 
 .study3 {
   background-image: url("../images/GRsolid.jpg");
@@ -139,7 +151,7 @@ p {
   background-position: center center; }
 
 .study6 {
-  background-image: url("../images/tjsolid.jpg");
+  background-image: url("../images/tjsolid.png");
   background-position: center center; }
 
 .study7 {
@@ -147,7 +159,7 @@ p {
     background-position: center center; }
 
 .studyprax {
-        background-image: url("../images/praxiogreen.png");
+        background-image: url("../images/praxgreen.png");
         background-position: center center; }
 
 .rfp {
