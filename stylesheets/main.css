@@ -17,9 +17,8 @@ p {
 
 
 .case-study-gallery {
-  margin-top: 50px;
   width: 90%;
-  margin: 50px auto;
+  margin: 4rem auto 2rem;
   max-width: 1100px; }
 
 .case-study {
@@ -125,18 +124,6 @@ p {
   background-image: url("../images/brsolid.jpg");
   background-position: center center; }
 
-.candc {
-  background-image: url("../images/candc.png");
-  background-position: center center; }
-
-.tandc {
-  background-image: url("../images/tandc.png");
-  background-position: center center; }
-
-  .mma {
-    background-image: url("../images/mma.png");
-    background-position: center center; }
-
 
 .study3 {
   background-image: url("../images/GRsolid.jpg");
@@ -161,6 +148,18 @@ p {
 .studyprax {
         background-image: url("../images/praxgreen.png");
         background-position: center center; }
+
+.candc {
+          background-image: url("../images/candc.png");
+          background-position: center center; }
+
+.tandc {
+          background-image: url("../images/tandc.png");
+          background-position: center center; }
+
+.mma {
+            background-image: url("../images/mma.png");
+            background-position: center center; }
 
 .rfp {
   text-decoration: none;
@@ -199,6 +198,17 @@ p {
   overflow: hidden;
 }
 
+.otherintro_text {
+  max-width: 700px;
+  text-align: center;
+  margin: 4rem auto;
+  background: white;}
+
+  .otherintro_text h3{
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6;}
+
 .intro_text {
   position: relative;
   max-width: 50%;
@@ -216,17 +226,68 @@ p {
       padding: 0em 2em 2em 0em;
     }
 
+
     .praxpic {
       float:left;
       max-height: 350px;
       padding: 0em 2em 2em 0em;
     }
+    .projectintro_div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+
+    .projpic {
+      grid-area: 1 / 1 / 2 / 3; }
+
+    .projintro_text{
+      padding: 0rem 3rem 2rem;
+      text-align:left;
+      grid-area: 1 / 3 / 4 / 6; }
+
+    .projpic img{
+      max-width: 400px;
+    }
+
+    .projassets{
+      margin-top: 4rem;
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(4, .5fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px; }
+
+      .imgdiv1 {
+        grid-area: 1 / 1 / 2 / 4;
+        }
+      .imgdiv1 img{
+        max-width: 500px;
+      }
+      .textdiv1 { grid-area: 2 / 1 / 3 / 4;
+      text-align: left;
+      margin-left: 4rem;
+      max-width: 400px;}
+      .imgdiv2 { grid-area: 1 / 4 / 2 / 7; }
+      .imgdiv2 img{
+          max-width:500px;
+      }
+      .textdiv2 { grid-area: 2 / 4 / 3 / 7;
+         text-align: left;
+           margin-left:4rem;
+       max-width: 400px;}
+      .imgdiv3{ grid-area: 3 / 1 / 4 / 7;}
+      .imgdiv3 img{
+        max-width: 500px;
+      }
+      .textdiv3 { grid-area: 4 / 1 / 5 / 7;}
+
+
+
+
 
     .labintro_text {
       margin: 2em 2em 0em 2em;
-    }
-
-   .labintro_text h1, h3, p{
         text-align: left;
         }
 
@@ -277,7 +338,7 @@ p {
   margin: 2em 0em 0em; }
 
 .projectheader {
-  padding: 0px 66px; }
+  padding: 0px 2rem; }
 
 
 .projectdiv {
@@ -351,6 +412,12 @@ p {
     float: left; } }
 @media (min-width: 501px) and (max-width: 760px) {
 
+  .projassets{
+    display: block;}
+
+  .projectintro_div {
+  display: block;
+}
   .intro_text {
     position: relative;
     width: 90%;
@@ -391,6 +458,12 @@ p {
     padding: 0px 0px; } }
 
 @media (min-width: 320px) and (max-width: 500px) {
+
+  .projectintro_div {
+  display: block;
+}
+.projassets{
+  display: block;}
 
 .number {
     float:left;
@@ -519,7 +592,7 @@ p {
 .navbar {
   box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
   background-color: none;
-  margin: 0px;
+  margin: 0 0 1rem 0;
   clear: both;
   overflow: hidden; }
 
