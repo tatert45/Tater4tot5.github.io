@@ -29,6 +29,18 @@ a:hover {
   text-decoration: none;
 }
 
+.skillgraphic {
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+.skillgraphic img:hover {
+  animation-name: flip;
+  animation-duration: .5s;
+  animation-delay:0s;
+
+}
+
 .case-study-gallery {
   width: 90%;
   margin: 4rem auto 2rem;
@@ -311,9 +323,6 @@ grid-row-gap: 0px; }
           margin-left:4rem;
             margin-bottom: 2rem;
       max-width: 450px;}
-
-
-
 
 
     .labintro_text {
@@ -643,7 +652,7 @@ grid-row-gap: 0px; }
 .skillsection {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 1rem;
     width: 90%;
 }
 
@@ -796,8 +805,8 @@ a:hover {
 
 .favorites a {
   text-decoration: none;
-  text-align: center;
-  margin: 2em;}
+  padding-inline-start: 20px;
+    margin-inline-start: 90px;}
 
 .favorites p {
   margin-bottom: 10px;
@@ -825,26 +834,18 @@ a:hover {
   height: 100px;
 }
 .connect .emailimg:hover {
-  transition: 0.2s cubic-bezier(.36,.07,.19,.97) both;
-  animation: shake .5s 2; }
+  animation-name: wobble;
+  animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
 
-  @keyframes shake {
-  0% {
-   transform: rotate(0deg);
- }
- 50% {
-   transform:rotate(20deg);
- }
- 100% {
-   transform:rotate(-20deg);
- }
- }
 .connect .phoneimg {
   height: 100px;
    }
 .connect .phoneimg:hover {
-  transition: 0.2s cubic-bezier(.36,.07,.19,.97) both;
-  animation: shake .5s 2; }
+    animation-name: wobble;
+  animation-duration: 1s;
+    animation-iteration-count: 1;}
 
 .connect .contactimg li {
   min-width: 150px;
@@ -895,7 +896,7 @@ a:hover {
 
 @media (min-width: 761px) and (max-width: 1000px) {
   .skills .skillgraphic img {
-    height: 150px; }
+    height: 100px; }
 
   .social img {
     height: 70px;
@@ -905,8 +906,12 @@ a:hover {
     display: inline;
     padding: 0px 40px; } }
 @media (min-width: 501px) and (max-width: 760px) {
-  .skills .skillgraphic img {
-    height: 100px; }
+
+  .skills  {
+    display: block; }
+    .skills .skillsolo {
+      padding-bottom: 1rem;
+    width: 100%;}
 
   .navbar img {
     height: 80px;
@@ -959,6 +964,12 @@ a:hover {
   .case-study__overlay {
     display: none; }
 
+    .skills  {
+      display: block; }
+      .skills .skillsolo {
+        padding-bottom: 1rem;
+      width: 100%;}
+
   .case-study {
     margin: 0; }
 
@@ -976,8 +987,6 @@ a:hover {
     max-height: 500px;
     padding: 2% 2% 2% 0%; }
 
-  .skillsection {
-    display: none; }
 
   .intropic {
     height: 200px; }
