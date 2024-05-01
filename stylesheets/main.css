@@ -170,6 +170,10 @@ a:hover {
     background-image: url("../images/beginnerindex.png");
     background-position: center center; }
 
+.studyuds {
+            background-image: url("../images/studyuds.png");
+            background-position: center center; }
+
 .studyprax {
         background-image: url("../images/praxgreen.png");
         background-position: center center; }
@@ -409,12 +413,12 @@ grid-row-gap: 0px; }
 .number {
   float: left;
   height: 50px;
-  padding: 1em }
+  padding: 0 .5em }
 .numberheader {
   display: inline;
 }
 .numberheader h2 {
-  margin: 1em 10px; }
+  padding: .5em; }
 
 .process p {
   padding: 0px 2rem; }
@@ -485,7 +489,7 @@ grid-row-gap: 0px; }
            -ms-transform: translate(-50%, -100%);
            transform: translate(-50%, -100%);
           text-align: center; }
-        	.text h2, p{padding: 0 1rem;}
+        	.text h2, p{padding: 0;}
 
   @media screen and (max-width: 992px) {
 
@@ -595,7 +599,7 @@ grid-row-gap: 0px; }
 .number {
     float:left;
     height: 35px;
-    padding: 1em 1em 0em 0em}
+    padding: .5em 0em 0em 0em}
 
   .intro_text {
     position: relative;
@@ -817,8 +821,8 @@ a:hover {
   border-radius: 60px;
   margin: 0px; }
 
-.resume {
-  padding: 2.5%; }
+.resume img{
+  width: 800px; }
 
 #contact {
   clear: both;
