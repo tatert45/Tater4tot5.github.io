@@ -170,9 +170,17 @@ a:hover {
     background-image: url("../images/beginnerindex.png");
     background-position: center center; }
 
+
 .studyuds {
-            background-image: url("../images/studyuds.png");
-            background-position: center center; }
+    background-image: url("../images/studyuds.png");
+    background-position: center center; }
+
+
+.studynotifications {
+    background-image: url("../images/studynotifications.png");
+    background-position: center center; }
+
+
 
 .studyprax {
         background-image: url("../images/praxgreen.png");
