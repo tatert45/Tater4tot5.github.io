@@ -29,17 +29,7 @@ a:hover {
   text-decoration: none;
 }
 
-.skillgraphic {
-  animation-duration: 3s;
-  animation-delay: 3s;
-}
 
-.skillgraphic img:hover {
-  animation-name: flip;
-  animation-duration: .5s;
-  animation-delay:0s;
-
-}
 
 .case-study-gallery {
   width: 90%;
