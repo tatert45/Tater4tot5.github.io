@@ -12,8 +12,8 @@ body {
   text-align: center; }
 
 h1, h2, h3, a, li {
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: "Outfit", Helvetica, sans-serif;
+  font-weight: 300;
   color: #4d4d4d; }
 h2 {
   line-height: 1.6;
@@ -91,12 +91,12 @@ a:hover {
   transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3); }
 
   .case-study__title h2{
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-weight: 100;
     color: white; }
 
   .case-study__title p{
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-weight: 100;
     color: white;
     text-align: center;}
@@ -110,7 +110,7 @@ a:hover {
   top: 200px;
   padding: 10px;
   margin: 0 auto;
-  font-family: 'Raleway';
+  font-family: 'Outfit';
   color: white;
   letter-spacing: 1px;
   text-decoration: none;
@@ -480,7 +480,7 @@ grid-row-gap: 0px; }
   			.text {
           background-color: white;
           width: 360px;
-          font-family: 'Raleway';
+          font-family: 'Outfit';
           position: absolute;
           top: 100%;
           left: 50%;
@@ -752,7 +752,7 @@ grid-row-gap: 0px; }
 
 .navbar a {
   text-decoration: none;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Outfit", Helvetica, sans-serif;
   font-size: 1.2em;
   color: #4d4d4d;
   padding: 15px; }
