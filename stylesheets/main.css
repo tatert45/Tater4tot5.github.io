@@ -68,6 +68,7 @@ a:hover {
   position: absolute;
   top: 0;
   z-index: 10; }
+
   .case-study__overlay:after {
     content: '';
     width: 100%;
@@ -589,7 +590,7 @@ grid-row-gap: 0px; }
 
 .projectcontent {
   background: white;
-  padding: 1rem;
+  padding: .5rem;
 }
 
   .projectintro_div {
@@ -672,7 +673,7 @@ grid-row-gap: 0px; }
     width: 20%;
     margin: 0% 2.5%; }
   .skills .skillgraphic img {
-    height: 125px; }
+    height: 100px; }
   .skills .skillinfo h2 {
     margin-bottom: 0%; }
     .skills .skillinfo p {
@@ -736,7 +737,7 @@ grid-row-gap: 0px; }
 
 .navbar ul {
   float: right;
-  padding: 50px 60px 30px 30px; }
+  padding: 40px 60px 30px 30px; }
 
 .navbar li {
   display: inline-block;
@@ -939,7 +940,7 @@ a:hover {
     padding: 10px; }
 
   .intropic {
-    height: 350px; }
+    height: 400px; }
 
   .intro h2 {
     padding: 20px; }
