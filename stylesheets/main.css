@@ -815,7 +815,6 @@ grid-row-gap: 0px; }
     float: left; } }
 
     .biodiv {
-      display: inline-block;
       width:90%;
       margin: 0 auto;
       padding-top: .5rem;
@@ -940,7 +939,6 @@ a:hover {
 }
 
 
-
 .introimg img{
   padding-top: 4%;
   text-align: center;
@@ -961,7 +959,14 @@ a:hover {
 
 
 
+@media(max-width:850px) {
+  #about::before {
+    height: 65px
+  }
+}
+
 .bio {
+  position: relative;
   text-align: left;
   float: left;
   width: 70%; }
@@ -974,6 +979,9 @@ a:hover {
 .bio p {
   padding-right: 10px; }
 
+.favorites ul{
+  padding-inline-start: 0px;
+}
 .favorites li {
   list-style: none;
   display: block;
@@ -996,7 +1004,8 @@ a:hover {
 
 #contact {
   clear: both;
-  text-align: center; }
+  text-align: center;
+}
 
 .connect h2 {
   padding-top: 20px; }
@@ -1207,10 +1216,6 @@ a:hover {
   .bio p {
     font-size: 1em; }
 
-.favorites ul {
-  -webkit-padding-start: 0px;
-  -moz-padding-start: 0px;
-}
 
   .favorites li{
     display: inline-block; }
