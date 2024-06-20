@@ -44,7 +44,7 @@ body{
 
 	}
 
-	.workcard{
+	.workcard {
     border: none;
 		 margin-bottom:1rem;
 			box-sizing:border-box;
@@ -52,7 +52,7 @@ body{
 			height: 450px;
 			overflow:hidden;
 
-     figure { margin: .75rem, .5rem;}
+  figure { margin: .75rem, .5rem;}
     img {
       border: 3px solid #4d4d4d;
       border-radius: 1.5rem;
@@ -72,11 +72,6 @@ body{
 		@include breakpoint(mobile-large){
 		@media only screen and (min-width: 56.25em) {
 		width:50%;
-		}
-
-		{
-			margin:0rem;
-			line-height: 0;
 		}
 
 		img{
@@ -820,6 +815,7 @@ grid-row-gap: 0px; }
     float: left; } }
 
     .biodiv {
+      display: inline-block;
       width:90%;
       margin: 0 auto;
       padding-top: .5rem;
@@ -961,10 +957,11 @@ a:hover {
 #work, #about, #contact h1 {
   text-align: center;
   color: #4d4d4d;
-  padding: 30px 10px 5px; }
+  padding: 10px; }
+
+
 
 .bio {
-  padding: 0px 10px 30px;
   text-align: left;
   float: left;
   width: 70%; }
