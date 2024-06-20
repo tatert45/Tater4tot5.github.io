@@ -54,8 +54,8 @@ body{
 
   figure { margin: .75rem, .5rem;}
     img {
-      border: 3px solid #4d4d4d;
-      border-radius: 1.5rem;
+
+      border-radius: 1rem;
     }
       a {
         text-decoration:none;
@@ -181,7 +181,7 @@ border-right: 2px solid #4d4d4d;
 			cursor:pointer;
       color: #4d4d4d;
       border: 2px solid #4d4d4d;
-      background-color: #D5F3FD;
+      background-color: #CFF7FF;
       transition: .3s;
       transform: translateY(.1rem);
 		}
@@ -958,18 +958,12 @@ a:hover {
   padding: 10px; }
 
 
-
-@media(max-width:850px) {
-  #about::before {
-    height: 65px
-  }
-}
-
 .bio {
-  position: relative;
+  display: inline-block;
   text-align: left;
   float: left;
-  width: 70%; }
+  width: 70%;
+}
 
 .bio img {
   height: 200px;
@@ -996,7 +990,6 @@ a:hover {
 .favorites img {
   height: 70px;
   border-radius: 60px;
-  border:3px solid #4d4d4d;
   margin: 0px; }
 
 .resume img{
