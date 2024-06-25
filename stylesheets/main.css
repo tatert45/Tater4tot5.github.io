@@ -1040,9 +1040,8 @@ a:hover {
     margin: 10px; }
 
   .bio img {
-    height: 150px;
-    float: left;
-    padding-right: 10px; }
+    height: 100px;
+    float: left; }
 
   .bio p {
     font-size: 1em; }
