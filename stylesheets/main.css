@@ -54,7 +54,7 @@ body{
 
   figure { margin: .75rem, .5rem;}
     img {
-
+      max-width: 400px;
       border-radius: 1rem;
     }
       a {
@@ -65,6 +65,7 @@ body{
           margin: 0;
         }
         p {
+          font-size: .85rem;
           margin: .5rem;}
 
 		}
@@ -188,169 +189,6 @@ border-right: 2px solid #4d4d4d;
 
 
 	}
-
-
-.case-study-gallery {
-  width: 90%;
-  margin: 3rem auto 0;
-  max-width: 1100px; }
-
-.case-study {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 300px;
-  margin: 0 auto 2rem;
-  background-size: cover;
-  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: all .4s ease; }
-  @media screen and (min-width: 37.5em) {
-    .case-study {
-      height: 300px; } }
-  @media screen and (min-width: 45em) {
-    .case-study {
-      display: inline-block;
-      width: 45%;
-      margin-left: 25px; } }
-
-.case-study__img {
-  width: 90%;
-  display: block;
-  margin-top: 50%;
-  transform: translateY(50%);
-  margin: 0 auto; }
-
-.case-study__overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 10; }
-
-  .case-study__overlay:after {
-    content: '';
-    width: 100%;
-    border-radius: 0px;
-    height: 100%;
-    background-color: #202020;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    z-index: -10;
-    left: 0;
-    transition: all .3s ease; }
-
-.case-study__title {
-  position: relative;
-  top: -200px;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
-  text-align: center;
-  letter-spacing: 1px;
-  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3); }
-
-  .case-study__title h2{
-    font-family: 'Outfit';
-    font-weight: 200;
-    color: white; }
-
-  .case-study__title p{
-    font-family: 'Outfit';
-    font-weight: 200;
-    color: white;
-    text-align: center;}
-
-
-
-.case-study__link {
-  position: relative;
-  display: block;
-  width: 70%;
-  top: 200px;
-  padding: 10px;
-  margin: 0 auto;
-  font-family: 'Outfit';
-  color: white;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 3px;
-  font-size: 1.25em;
-  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3); }
-
-  .case-study__link:hover {
-    background-color: white;
-    color: #202020; }
-
-.case-study:hover .case-study__title {
-  top: 0; }
-.case-study:hover .case-study__link {
-  top: 0; }
-.case-study:hover .case-study__overlay:after {
-  opacity: .75; }
-
-.study1 {
-  background-image: url("../images/SwimATXsolid.jpg");
-  background-position: center center; }
-
-.study2 {
-  background-image: url("../images/brsolid.jpg");
-  background-position: center center; }
-
-
-.study3 {
-  background-image: url("../images/GRsolid.jpg");
-  background-position: center center; }
-
-.study4 {
-  background-image: url("../images/vitamintdisplay.png");
-  background-position: center center; }
-
-.study5 {
-  background-image: url("../images/labblue.png");
-  background-position: center center; }
-
-.study6 {
-  background-image: url("../images/tjsolid.png");
-  background-position: center center; }
-
-.study7 {
-    background-image: url("../images/beginnerindex.png");
-    background-position: center center; }
-
-
-.studyuds {
-    background-image: url("../images/studyuds.png");
-    background-position: center center; }
-
-
-.studynotifications {
-    background-image: url("../images/studynotifications.png");
-    background-position: center center; }
-
-.studysupport {
-        background-image: url("../images/studysupport.png");
-        background-position: center center; }
-
-
-
-.studyprax {
-        background-image: url("../images/praxgreen.png");
-        background-position: center center; }
-
-.candc {
-          background-image: url("../images/candc.png");
-          background-position: center center; }
-
-.tandc {
-          background-image: url("../images/tandc.png");
-          background-position: center center; }
-
-.mma {
-            background-image: url("../images/mma.png");
-            background-position: center center; }
 
 .rfp {
   text-decoration: none;
@@ -823,20 +661,19 @@ grid-row-gap: 0px; }
 .skillsection {
   clear:both;
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    margin: 3rem auto;
     width: 90%;
 }
 
 .skills {
   text-align: center;
   display: flex;
-  padding: 20px; }
+  padding: 0px 20px; }
   .skills h1 {
     width: 100%; }
   .skills .skillsolo {
     width: 20%;
-    margin: 0% 2.5%; }
+    margin: 0 auto; }
   .skills .skillgraphic img {
     height: 100px; }
   .skills .skillinfo h2 {
@@ -885,8 +722,6 @@ grid-row-gap: 0px; }
     transform: scale(1.1);
     filter: drop-shadow(0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)); }
 
-.case-study_mobile {
-  display: none; }
 
 .navbar {
   box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
@@ -957,12 +792,19 @@ a:hover {
   color: #4d4d4d;
   padding: 10px; }
 
+#about{
+  clear: both;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
 
 .bio {
   display: inline-block;
   text-align: left;
-  float: left;
   width: 70%;
+  float:left;
+
 }
 
 .bio img {
@@ -973,13 +815,22 @@ a:hover {
 .bio p {
   padding-right: 10px; }
 
+.favorites {
+  float: right;
+  padding-bottom: 20px;
+}
+
 .favorites ul{
   padding-inline-start: 0px;
+
 }
+
+
+
 .favorites li {
   list-style: none;
   display: block;
-  padding-inline-start: 20px;
+  padding-right: 2rem;
     }
 
 
@@ -1026,7 +877,6 @@ a:hover {
   clear: both; }
 
 .socialcontainer h2 {
-  padding-top: 1em;
   padding-bottom: .5em;
 }
 
@@ -1049,7 +899,7 @@ a:hover {
   position: relative;
   width: 100%;
   text-align: center;
-  padding-top: 150px; }
+  padding-top: 2rem; }
 
 .footerdiv ul {
   list-style: none;
@@ -1079,9 +929,10 @@ a:hover {
   .skills  {
     clear:both;
     display: block; }
+
     .skills .skillsolo {
-      padding-bottom: 1rem;
-    width: 100%;}
+      padding-bottom: .5rem;
+    width: 90%;}
 
   .navbar img {
     height: 80px;
@@ -1131,27 +982,12 @@ a:hover {
   .footerdiv li {
     padding: 0px 10px; } }
 @media (min-width: 320px) and (max-width: 500px) {
-  .case-study__overlay {
-    display: none; }
 
     .skills  {
       display: block; }
       .skills .skillsolo {
         padding-bottom: 1rem;
-      width: 100%;}
-
-  .case-study {
-    margin: 0; }
-
-  .case-study_mobile {
-  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
-    margin: 0% 0% 10%;
-    padding: 5% 0%;
-    display: block;
-    background: white;
-    font-size: 1.5em;
-    text-decoration: none; }
+      width: 90%;}
 
   .resume img {
     max-height: 500px;
@@ -1208,7 +1044,9 @@ a:hover {
 
   .bio p {
     font-size: 1em; }
-
+.favorites {
+  float: none;
+}
 
   .favorites li{
     display: inline-block; }
@@ -1224,7 +1062,7 @@ a:hover {
     padding: 0px 7px; }
 
   .footerdiv {
-    padding-top: 100px; }
+    padding-top: 2rem; }
 
   .footerdiv li {
     padding-top: 10px;
