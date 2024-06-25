@@ -808,9 +808,11 @@ a:hover {
 }
 
 .bio img {
-  height: 200px;
+  height: 160px;
+  border-radius: 300px;
+  border: 3px solid #00cfff;
   float: left;
-  padding-right: 2em; }
+  margin-right: 2em; }
 
 .bio p {
   padding-right: 10px; }
