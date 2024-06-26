@@ -49,7 +49,7 @@ body{
 		 margin-bottom:1rem;
 			box-sizing:border-box;
 			padding:0.5em;
-			height: 450px;
+			max-height: 500px;
 			overflow:hidden;
 
   figure { margin: .75rem, .5rem;}
@@ -797,10 +797,15 @@ a:hover {
     text-align: center;
     margin: 0 auto;
     width: 90%;
+
+}
+
+.biodiv{
+
+  display: inline-block;
 }
 
 .bio {
-  display: inline-block;
   text-align: left;
   width: 70%;
   float:left;
@@ -818,7 +823,6 @@ a:hover {
   padding-right: 10px; }
 
 .favorites {
-  float: right;
   padding-bottom: 20px;
 }
 
@@ -832,7 +836,7 @@ a:hover {
 .favorites li {
   list-style: none;
   display: block;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
     }
 
 
@@ -1043,8 +1047,6 @@ a:hover {
     height: 100px;
     float: left; }
 
-  .bio p {
-    font-size: 1em; }
 .favorites {
   float: none;
 }
