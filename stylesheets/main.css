@@ -779,6 +779,7 @@ a:hover {
   text-align: center;
   margin-bottom: 2%; }
 
+
 .work {
   width: 100%;
   display: flex;
@@ -801,7 +802,6 @@ a:hover {
 }
 
 .biodiv{
-
   display: inline-block;
 }
 
@@ -851,6 +851,8 @@ a:hover {
 
 .resume img{
   max-width: 800px; }
+
+
 
 #contact {
   clear: both;
