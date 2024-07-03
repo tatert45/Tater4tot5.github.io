@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 
 /* project image start */
-      
+
       function myFunction(imgs) {
         var expandImg = document.getElementById("expandedImg");
         var imgText = document.getElementById("imgtext");
@@ -41,3 +41,5 @@ $(document).ready(function(){
         imgText.innerHTML = imgs.alt;
         expandImg.parentElement.style.display = "block";
       }
+
+      

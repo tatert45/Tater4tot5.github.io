@@ -41,7 +41,7 @@
 
     <div class="process">
         <h1>My Process</h1>
-    <div class="projectpicleft"><img class="grcompare" src="images/supportcenter1.png"></div><div class="projectdiv"><div class="numberheader"><img class="number" src="images/number1.png"><h2>Research, Discover & Define</h2>
+    <div class="projectpicleft"><span class="hovertext">(Click to enlarge)</span><img class="grcompare" src="images/supportcenter1.png" onclick="myFunction(this);" alt="I used a combination of qualitative and quantitative customer research, and gathered competitive analysis to determine customer painpoints and define our problems with this page."></div><div class="projectdiv"><div class="numberheader"><img class="number" src="images/number1.png"><h2>Research, Discover & Define</h2>
     </div>
     <p>By partnering with our UX Research and Customer Support teams, I was able to gather qualitative research in the form of customer feedback for our end users as well as our internal users (our Support team). With quantitative data from heat maps and behavior tracking tools, I was able to better understand how users were interacting with our Support page as well as our chat-bot. I learned that many customers preferred to self-serve rather than have to contact support in the first place--which was virtually impossible to do within the app.
 
@@ -51,7 +51,7 @@
     Thus, I determined this redesign needed to not only reduce friction for customers trying to get in-app support but also help increase trust/visibility of support resources within our product.
     </p></div>
 
-    <div class="projectpicright"><img class="grcompare" src="images/supportcenter2.png"></div><div class="projectdiv"><div class="numberheader"><img class="number" src="images/number2.png"><h2>Ideation and Design</h2></div>
+    <div class="projectpicright"><span class="hovertext">(Click to enlarge)</span><img class="grcompare" src="images/supportcenter2.png" onclick="myFunction(this);" alt="A lack of visual hierarchy made the page feel unorganized and difficult to navigate. I decided to give more visual prominence to actionable items and worked with our engineers to dynamically surface helpful information from our Support blog."></div><div class="projectdiv"><div class="numberheader"><img class="number" src="images/number2.png"><h2>Ideation and Design</h2></div>
     <p>The first design decision I made was to update this page with design system components and patterns that matched the rest of the product experience. In order to offer a consistent experience, I updated typography, individual page components and imagery to give the page a more updated, on-brand look and feel.
     <p>A simple heuristic evaluation of the original page helped me identify room for improvement in things like content and page layout. For example, a lack of visual hierarchy made the page feel unorganized and difficult to navigate. I decided to give more visual prominence to actionable items like search, finding/creating support tickets, and/or starting a live chat. In order to surface helpful information and reduce cognitive effort for users that wanted to self-serve, I partnered with engineering to make this page dynamically populate our most popular support topics.
     <p>
@@ -59,13 +59,17 @@
      </p>
   </div>
 
-    <div class="projectpicleft"><img class="grcompare" src="images/supportcenter3.png"></div><div class="projectdiv"><div class="numberheader"><img class="number" src="images/number3.png"><h2>Test, Iterate, improve</h2></div>
+    <div class="projectpicleft"><span class="hovertext">(Click to enlarge)</span><img class="grcompare" src="images/supportcenter3.png" onclick="myFunction(this);" alt="Unlike the original Support Center, the updated version was responsive, visually more organized, and helped users self-serve and access the support they needed."></div><div class="projectdiv"><div class="numberheader"><img class="number" src="images/number3.png"><h2>Test, Iterate, improve</h2></div>
     <p>This page went through several rounds of testing and iteration. In addition to customer satisfaction with the redesign, it was important that our Support Team also approve of the updates. In initial designs, the "Start a live chat" button was a primary, filled button. Initial designs also included supporting text to explain that by typing "human" into a support chat, a human would be able to chat with them 24/7. Fearing that these changes might create more of a burden on our support team, we ended up making the "Browse support articles" the primary CTA on the page, and removing any references to humans in our supporting copy.
-    Unlike the original Support page, this page was responsive, however, the rest of our app was not responsive, so it was hard to determine how useful this was to customers.
-    The one piece of customer feedback I would have liked to explore further was the ability to see open tickets on this page. Due to time and development constraints, integration with our ticketing platform was not a priority, but it was on the roadmap when I left WP Engine. </p>
+    </p>
+    <p>Unlike the original Support page, this page was responsive, however, the rest of our app was not responsive, so it was hard to determine how useful this was to customers. Another piece of customer feedback I would have liked to explore further was the ability to see open tickets on this page. Due to time and technical constraints, integration with our ticketing platform was not a priority, but it was on the roadmap when I left WP Engine. </p>
   </div>
 
-
+  <div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">✕</span>
+  <img id="expandedImg" style="width:100vh">
+  <div id="imgtext"></div>
+  </div>
 
     </div>
 

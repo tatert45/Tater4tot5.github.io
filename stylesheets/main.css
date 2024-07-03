@@ -435,7 +435,7 @@ grid-row-gap: 0px; }
 .hovertext{
   font-family: 'Open Sans';
   background-color: white;
-  padding: 1rem;
+  padding: .5rem ;
   color:#4d4d4d;
   position: absolute;
   bottom: 30%;
@@ -451,7 +451,6 @@ grid-row-gap: 0px; }
   visibility: visible;
 }
 
-
 .projectpicleft img {
   opacity: 1;
   cursor: pointer;
@@ -460,7 +459,7 @@ grid-row-gap: 0px; }
 
 
 
-.projectpicright img { opacity: 1;
+.projectpicright img {
   cursor: pointer;
 }
 
@@ -489,24 +488,38 @@ grid-row-gap: 0px; }
   font-weight: 300;
   position: absolute;
   top: 1rem;
-  left: 30px;
+  left: 60px;
   color: #4d4d4d;
   max-width: 80%;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
   top: 1rem;
-  margin-right: 15px;
-  right: 15px;
+  margin-left: 15px;
+  left: 15px;
   color: #4d4d4d;
-  font-size: 2rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
+@media screen and (max-width: 699px) {
+  .container {
+    display: none;
+  }
+  .projectpicleft:hover .hovertext{
+    visibility: hidden;
+  }
+  .projectpicright:hover .hovertext {
+    visibility: hidden;
+  }
 
+  .projectpicleft img {
+    cursor: pointer;
+  }
+}
 
 
 
@@ -702,6 +715,8 @@ grid-row-gap: 0px; }
     padding: 0px 0px; } }
 
 @media (min-width: 320px) and (max-width: 500px) {
+
+
 
 .projectcontent {
   background: white;
